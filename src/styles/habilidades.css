@@ -1,0 +1,195 @@
+.habilidades {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 2px solid #ddd;
+
+}
+
+
+.logo p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.tabla-auto {
+  display: flex;
+  justify-content: center;
+}
+.conocimientos-auto {
+  list-style: inside;
+  text-align: left;
+  padding-left: 0;
+}
+.tabla-titulos {
+  text-align: center;
+}
+.titulos li {
+  list-style: none;
+}
+.centro {
+  color: #949393;
+}
+
+.tabla-experiencia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 80px;
+}
+.experiencia {
+  text-align: left;
+  padding-left: 0;
+}
+
+.experiencia .encabezado {
+  list-style: none;
+}
+.encabezado{
+  margin-bottom: 1rem;
+}
+.encabezado li {
+  list-style: inside;
+}
+.trabajo {
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+  text-decoration: underline;
+}
+h3,
+h4 {
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+.cuadrado {
+  border-top: 1px solid #949393;
+  border-bottom: 1px solid #949393;
+  border-radius: 20px;
+  display: flex;
+  width: 30rem;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.cuadrado-grande {
+  border-top: 1px solid #949393;
+  border-bottom: 1px solid #949393;
+  border-radius: 20px;
+  display: flex;
+  width: fit-content;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .cuadrado,
+  .cuadrado-grande {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .logos {
+    gap: 15px;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .logo p {
+    font-size: 14px;
+  }
+
+  .tabla-titulos {
+    padding: 0 10px;
+  }
+
+  .tabla-experiencia {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .experiencia li {
+    font-size: 15px;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .encabezado ul li {
+    font-size: 14px;
+  }
+
+  .habilidades {
+    padding: 0 15px;
+  }
+  .encabezado {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.encabezado .trabajo {
+  display: block;
+}
+
+.encabezado .centro {
+  display: block;
+  font-style: italic;
+  color: #949393;
+  margin-bottom: 5px;
+}
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo p {
+    font-size: 13px;
+  }
+
+  .experiencia li {
+    font-size: 14px;
+  }
+
+  .encabezado ul li {
+    font-size: 13px;
+  }
+
+  .tabla-titulos li {
+    font-size: 14px;
+  }
+}
