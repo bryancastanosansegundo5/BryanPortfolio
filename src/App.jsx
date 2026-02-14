@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Proyectos from "./pages/Proyectos";
 import Habilidades from "./pages/Habilidades";
 import "./styles/styles.css";
+import ScrollTopButton from "./components/generales/ScrollTopButton";
 
 // import DescargarCV from "./pages/DescargarCV"; // si lo añades después
 
@@ -24,6 +25,7 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
+        <ScrollTopButton />
       </div>
     </Router>
   );
