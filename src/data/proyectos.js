@@ -12,7 +12,7 @@ export const proyectos = [
     titulo: "PesApp",
     descripcion:
       "Aplicación para gestionar entrenamientos, ejercicios y sesiones de forma clara, rápida y visual.",
-    enlace: "https://github.com/bryancastanosansegundo5/PesAppFrontEnd",
+    enlace: "https://pesapp.bryancas.com/",
     repositorio: [
       {
         nombre: "Backend",
