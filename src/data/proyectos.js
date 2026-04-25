@@ -1,13 +1,31 @@
-import paisesReact from "../assets/images/paisesReact.png";
-import coloresReact from "../assets/images/coloresReact.png";
-import paisesJS from "../assets/images/paisesJS.png";
-import numerosPrimos from "../assets/images/numerosPrimos.png";
-import pelotas from "../assets/images/pelotas.png";
-import crudUsuarios from "../assets/images/crudUsuarios.png";
-import portfolioReact from "../assets/images/portfolioReact.png";
-import BCcomponentes from "../assets/images/BCcomponentes.png";
-
+import paisesReact from "../assets/images/paisesReact.webp";
+import coloresReact from "../assets/images/coloresReact.webp";
+import paisesJS from "../assets/images/paisesJS.webp";
+import numerosPrimos from "../assets/images/numerosPrimos.webp";
+import pelotas from "../assets/images/pelotas.webp";
+import crudUsuarios from "../assets/images/crudUsuarios.webp";
+import portfolioReact from "../assets/images/portfolioReact.webp";
+import BCcomponentes from "../assets/images/BCcomponentes.webp";
+import PesApp from "../assets/images/PesApp.webp";
 export const proyectos = [
+  {
+    titulo: "PesApp",
+    descripcion:
+      "Aplicación para gestionar entrenamientos, ejercicios y sesiones de forma clara, rápida y visual.",
+    enlace: "https://github.com/bryancastanosansegundo5/PesAppFrontEnd",
+    repositorio: [
+      {
+        nombre: "Backend",
+        url: "https://github.com/bryancastanosansegundo5/PesAppBackEnd",
+      },
+      {
+        nombre: "Frontend",
+        url: "https://github.com/bryancastanosansegundo5/PesAppFrontEnd",
+      },
+    ],
+    imagen: PesApp,
+    iconos: ["springboot", "react", "tailwindcss"],
+  },
   {
     titulo: "BCcomponentes",
     descripcion:
@@ -24,7 +42,7 @@ export const proyectos = [
       },
     ],
     imagen: BCcomponentes,
-    iconos: ["springboot", "java", "js", "css", "html"],
+    iconos: ["springboot", "react", "css"],
   },
   {
     titulo: "Pelotas Saltarinas",
@@ -43,8 +61,8 @@ export const proyectos = [
     iconos: ["php", "css", "html"],
   },
   {
-    titulo: "Países del Mundo",
-    descripcion: "Países obtenidos de una API.",
+    titulo: "Paí­ses del Mundo",
+    descripcion: "Paí­ses obtenidos de una API.",
     enlace: "https://paises-teal.vercel.app",
     repositorio: "https://github.com/bryancastanosansegundo5/Paises",
     imagen: paisesReact,
@@ -59,7 +77,7 @@ export const proyectos = [
     iconos: ["react", "js", "css", "html"],
   },
   {
-    titulo: "Países en JavaScript",
+    titulo: "Paí­ses en JavaScript",
     descripcion: "Buscador de países con JavaScript.",
     enlace: "https://paises-js.vercel.app",
     repositorio: "https://github.com/bryancastanosansegundo5/PaisesJS",
@@ -74,7 +92,6 @@ export const proyectos = [
     imagen: numerosPrimos,
     iconos: ["js", "css", "html"],
   },
-
   {
     titulo: "Mi Portfolio",
     descripcion: "Mi portfolio personal.",
