@@ -1,4 +1,4 @@
-import bryan from "../assets/images/foto.jpg";
+import bryan from "../assets/mifoto.webp";
 import Toastify from "toastify-js";
 import cv from "../assets/Curriculum Vitae - Bryan Castano San Segundo.pdf";
 // import {  } from "../";

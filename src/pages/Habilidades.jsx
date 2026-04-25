@@ -71,73 +71,172 @@ const Habilidades = () => {
       </div>
 
       <div className="cuadrado-grande">
-  <h3>Experiencia:</h3>
-  <div className="tabla-experiencia">
-    <ul className="experiencia">
-      <li className="encabezado">
-        <span className="trabajo">Desarrollador Web</span>
-        <span className="centro"> Serbatic S.A. (03/2025 – 06/2025)</span>
-        <ul>
-          <li>Desarrollo Full Stack de una tienda online con <strong>Java, Spring Boot y React</strong>.</li>
-          <li>App de evaluación de candidatos con vectorización (<strong>React + Spring Boot</strong>).</li>
-          <li>Formación intensiva en Spring y Spring Boot.</li>
-        </ul>
-      </li>
+        <h3>Experiencia:</h3>
+        <div className="tabla-experiencia">
+          <ul className="experiencia">
+            <li className="encabezado">
+              <span className="trabajo">
+                Software Developer y Nuevas Tecnologías
+              </span>
+              <span className="centro"> Grupo TecoZam (09/2025 – Actualidad)</span>
+              <ul>
+                <li>
+                  Desarrollo y personalización de ERP con <strong>VB.NET</strong>{" "}
+                  y <strong>SQL Server</strong>, implementando lógica de
+                  negocio y mejoras de rendimiento.
+                </li>
+                <li>
+                  Integración de APIs REST y automatización de procesos
+                  críticos entre ERP, web y base de datos.
+                </li>
+                <li>
+                  Desarrollo de soluciones full stack con{" "}
+                  <strong>Node.js</strong>, <strong>Spring Boot</strong>,{" "}
+                  <strong>Astro</strong> y <strong>JavaScript</strong>,
+                  incluyendo webhooks y reporting con{" "}
+                  <strong>SAP Crystal Reports</strong>.
+                </li>
+              </ul>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Consultor Tecnológico</span>
-        <span className="centro"> Serinza Solution SL (12/2023 – 09/2024)</span>
-        <ul>
-          <li>Consultoría tecnológica y definición de soluciones digitales alineadas con objetivos de negocio.</li>
-          <li>Desarrollo e implementación de software como parte del equipo técnico.</li>
-          <li>Uso de <strong>WordPress</strong> para soluciones digitales con <strong>CMS</strong>.</li>
-        </ul>
-      </li>
+            <li className="encabezado">
+              <span className="trabajo">Desarrollador Full Stack</span>
+              <span className="centro">
+                {" "}
+                Questión de Imagen Comunicación (05/2025 – 08/2025)
+              </span>
+              <ul>
+                <li>
+                  Desarrollo de sitios web personalizados con{" "}
+                  <strong>WordPress</strong>, <strong>PHP</strong>,{" "}
+                  <strong>JavaScript</strong>, <strong>HTML</strong> y{" "}
+                  <strong>CSS</strong>.
+                </li>
+                <li>
+                  Gestión técnica de hosting, dominios, DNS y mantenimiento,
+                  resolviendo incidencias y asegurando la continuidad de los
+                  proyectos.
+                </li>
+                <li>
+                  Participación en reuniones con clientes y desarrollo de
+                  soluciones web escalables con <strong>Java</strong>,{" "}
+                  <strong>Spring Boot</strong> y <strong>React</strong>.
+                </li>
+              </ul>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Soldado Profesional – Servicio Militar</span>
-        <span className="centro"> Ejército de Tierra (05/2021 – 05/2023)</span>
-      </li>
+            <li className="encabezado">
+              <span className="trabajo">Desarrollador Web</span>
+              <span className="centro"> Serbatic S.A. (03/2025 – 06/2025)</span>
+              <ul>
+                <li>
+                  Desarrollo Full Stack de una tienda online con{" "}
+                  <strong>Java, Spring Boot y React</strong>.
+                </li>
+                <li>
+                  App de evaluación de candidatos con vectorización (
+                  <strong>React + Spring Boot</strong>).
+                </li>
+                <li>Formación intensiva en Spring y Spring Boot.</li>
+              </ul>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Técnico Informático</span>
-        <span className="centro"> Decathlon España (04/2018 – 05/2021)</span>
-        <ul>
-          <li>Testing funcional manual de nuevas funcionalidades web.</li>
-          <li>Soporte técnico y mantenimiento de equipos y sistemas informáticos.</li>
-        </ul>
-      </li>
+            <li className="encabezado">
+              <span className="trabajo">Consultor Tecnológico</span>
+              <span className="centro">
+                {" "}
+                Serinza Solution SL (12/2023 – 09/2024)
+              </span>
+              <ul>
+                <li>
+                  Consultoría tecnológica y definición de soluciones digitales
+                  alineadas con objetivos de negocio.
+                </li>
+                <li>
+                  Desarrollo e implementación de software como parte del equipo
+                  técnico.
+                </li>
+                <li>
+                  Uso de <strong>WordPress</strong> para soluciones digitales
+                  con <strong>CMS</strong>.
+                </li>
+              </ul>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Técnico Instalador de Redes Informáticas</span>
-        <span className="centro"> Zener Plus SL (06/2017 – 11/2017)</span>
-        <ul>
-          <li>Instalación de puntos de acceso 4G en viviendas.</li>
-          <li>Despliegue de redes en centros educativos (Escuelas Conectadas, Galicia).</li>
-        </ul>
-      </li>
+            <li className="encabezado">
+              <span className="trabajo">
+                Soldado Profesional – Servicio Militar
+              </span>
+              <span className="centro">
+                {" "}
+                Ejército de Tierra (05/2021 – 05/2023)
+              </span>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Desarrollador Web</span>
-        <span className="centro"> Serinza Solution SL (01/2017 – 06/2017)</span>
-        <ul>
-          <li>Digitalización e integración de sistemas para administraciones públicas.</li>
-          <li>Mantenimiento de portales institucionales y plataformas <strong>eCommerce</strong>.</li>
-          <li>Apps móviles <strong>Android</strong> enfocadas a gestión interna y servicios digitales.</li>
-        </ul>
-      </li>
+            <li className="encabezado">
+              <span className="trabajo">Técnico Informático</span>
+              <span className="centro">
+                {" "}
+                Decathlon España (04/2018 – 05/2021)
+              </span>
+              <ul>
+                <li>Testing funcional manual de nuevas funcionalidades web.</li>
+                <li>
+                  Soporte técnico y mantenimiento de equipos y sistemas
+                  informáticos.
+                </li>
+              </ul>
+            </li>
 
-      <li className="encabezado">
-        <span className="trabajo">Soporte Informático</span>
-        <span className="centro"> Bits & Company (01/2014 – 06/2017)</span>
-        <ul>
-          <li>Reparación, montaje y mantenimiento de equipos y servidores informáticos.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
+            <li className="encabezado">
+              <span className="trabajo">
+                Técnico Instalador de Redes Informáticas
+              </span>
+              <span className="centro"> Zener Plus SL (06/2017 – 11/2017)</span>
+              <ul>
+                <li>Instalación de puntos de acceso 4G en viviendas.</li>
+                <li>
+                  Despliegue de redes en centros educativos (Escuelas
+                  Conectadas, Galicia).
+                </li>
+              </ul>
+            </li>
 
+            <li className="encabezado">
+              <span className="trabajo">Desarrollador Web</span>
+              <span className="centro">
+                {" "}
+                Serinza Solution SL (01/2017 – 06/2017)
+              </span>
+              <ul>
+                <li>
+                  Digitalización e integración de sistemas para
+                  administraciones públicas.
+                </li>
+                <li>
+                  Mantenimiento de portales institucionales y plataformas{" "}
+                  <strong>eCommerce</strong>.
+                </li>
+                <li>
+                  Apps móviles <strong>Android</strong> enfocadas a gestión
+                  interna y servicios digitales.
+                </li>
+              </ul>
+            </li>
+
+            <li className="encabezado">
+              <span className="trabajo">Soporte Informático</span>
+              <span className="centro"> Bits & Company (01/2014 – 06/2017)</span>
+              <ul>
+                <li>
+                  Reparación, montaje y mantenimiento de equipos y servidores
+                  informáticos.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

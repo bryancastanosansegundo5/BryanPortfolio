@@ -51,6 +51,18 @@
   transition: transform 0.3s ease;
 }
 
+.imagen-tarjeta--placeholder {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0c4f54, #0f7980);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .contenido-tarjeta {
   display: flex;
   justify-content: center;
@@ -90,6 +102,13 @@
 
 .lenguajes-utilizados i {
   margin: 0 5px;
+}
+
+.tech-svg {
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+  vertical-align: middle;
 }
 
 .pie-tarjeta {
