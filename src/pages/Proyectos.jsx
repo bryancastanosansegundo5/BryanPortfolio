@@ -70,19 +70,31 @@ const Proyectos = () => {
         {proyectos.map((proyecto, index) => (
           <div className="tarjeta" key={index}>
             <div className="enlace-proyecto">
-              <a href={proyecto.enlace} target="_blank" rel="noreferrer">
-                {proyecto.imagen ? (
-                  <img
-                    src={`${proyecto.imagen}`}
-                    alt={proyecto.titulo}
-                    className="imagen-tarjeta"
-                  />
-                ) : (
-                  <div className="imagen-tarjeta imagen-tarjeta--placeholder">
-                    <span>{proyecto.titulo}</span>
-                  </div>
-                )}
-              </a>
+              {proyecto.enlace ? (
+                <a href={proyecto.enlace} target="_blank" rel="noreferrer">
+                  {proyecto.imagen ? (
+                    <img
+                      src={`${proyecto.imagen}`}
+                      alt={proyecto.titulo}
+                      className="imagen-tarjeta"
+                    />
+                  ) : (
+                    <div className="imagen-tarjeta imagen-tarjeta--placeholder">
+                      <span>{proyecto.titulo}</span>
+                    </div>
+                  )}
+                </a>
+              ) : proyecto.imagen ? (
+                <img
+                  src={`${proyecto.imagen}`}
+                  alt={proyecto.titulo}
+                  className="imagen-tarjeta"
+                />
+              ) : (
+                <div className="imagen-tarjeta imagen-tarjeta--placeholder">
+                  <span>{proyecto.titulo}</span>
+                </div>
+              )}
             </div>
             <div className="contenido-tarjeta">
               <div className="descripcion-tarjeta">

@@ -113,7 +113,7 @@ const Home = () => {
     <br /><br />
     👉 Visita mi portfolio: 
     <u><b>
-    <a href="https://bryancas.com/" target="_blank" rel="noopener noreferrer">https://bryancas.com/</a>
+    <a href="https://bryancas.qzz.io" target="_blank" rel="noopener noreferrer">https://bryancas.qzz.io</a>
     </b>
     </u>
     <br />

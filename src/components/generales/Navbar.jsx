@@ -56,6 +56,7 @@ const Navbar = () => {
       <button
         type="button"
         className="modern-nav__toggle"
+        aria-label={isMenuOpen ? "Cerrar menú" : "Abrir menú"}
         aria-expanded={isMenuOpen}
         aria-controls="mobile-menu"
         onClick={handleToggleMenu}

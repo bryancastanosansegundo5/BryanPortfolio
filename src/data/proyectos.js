@@ -55,7 +55,7 @@ export const proyectos = [
   {
     titulo: "CRUD de Usuarios",
     descripcion: "CRUD desarrollado en PHP.",
-    enlace: "https://crud-php-henna.vercel.app",
+    enlace: null,
     repositorio: "https://github.com/bryancastanosansegundo5/CrudPHP",
     imagen: crudUsuarios,
     iconos: ["php", "css", "html"],
