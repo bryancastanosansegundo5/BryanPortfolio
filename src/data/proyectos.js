@@ -7,7 +7,28 @@ import crudUsuarios from "../assets/images/crudUsuarios.webp";
 import portfolioReact from "../assets/images/portfolioReact.webp";
 import BCcomponentes from "../assets/images/BCcomponentes.webp";
 import PesApp from "../assets/images/PesApp.webp";
+import ZonasTrabajo from "../assets/images/ZonasTrabajo.webp";
+import SoldadurasAGT from "../assets/images/SoldadurasAGT.webp";
 export const proyectos = [
+  {
+    titulo: "Visor 3D",
+    descripcion:
+      "Visor 3D interactivo que se descomponen un par de viaductos para explorar sus elementos de forma visual.",
+    enlace: "https://zonas-de-trabajo.vercel.app/viaducto3d",
+    repositorio: null,
+    imagen: ZonasTrabajo,
+    iconos: ["react", "tailwindcss", "three"],
+  },
+  {
+    titulo: "AGT Soldaduras",
+    descripcion:
+      "Web desarrollada con React, Tailwind CSS y GSAP para crear animaciones modernas, fluidez y una experiencia más dinámica.",
+    enlace: "https://soldadurasagt.vercel.app/",
+    repositorio:
+      "https://github.com/bryancastanosansegundo5/SoldadurasAGT",
+    imagen: SoldadurasAGT,
+    iconos: ["react", "tailwindcss", "gsap"],
+  },
   {
     titulo: "PesApp",
     descripcion:
@@ -29,7 +50,7 @@ export const proyectos = [
   {
     titulo: "BCcomponentes",
     descripcion:
-      "Tienda profesional con funcionalidades completas para gestionar una tienda real.",
+      "Tienda profesional con funcionalidades completas para gestionar una tienda real, incluido un asistente de IA.",
     enlace: "https://b-ccomponentes-front.vercel.app/",
     repositorio: [
       {

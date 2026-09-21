@@ -111,6 +111,11 @@
   vertical-align: middle;
 }
 
+.gsap-svg {
+  width: 62px;
+  height: auto;
+}
+
 .pie-tarjeta {
   display: flex;
   align-items: center;
@@ -123,6 +128,14 @@
   font-size: 20px;
   text-align: center;
   border-top: 1px solid #fff;
+}
+
+.pie-tarjeta--placeholder {
+  background-color: #333;
+}
+
+.pie-tarjeta--placeholder .enlace-github {
+  visibility: hidden;
 }
 
 .enlace-github{
