@@ -1,12 +1,34 @@
-# React + Vite
+# Portfolio de Bryan Castaño
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio de una sola página creado con React, Vite, Tailwind CSS 4 y GSAP. Reúne proyectos, experiencia, formación, perfil técnico y contacto en una secuencia pensada para reclutadores.
 
-Currently, two official plugins are available:
+## Desarrollo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Comprobaciones
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+npm run lint
+npm run test:e2e
+```
+
+Las pruebas de navegador comprueban la página a 3840, 1440, 768, 430, 390 y 320 píxeles, la ausencia de desbordamiento horizontal, el enlace al CV, el menú móvil y la respuesta visual de los proyectos al pasar el ratón. Playwright necesita Chromium instalado con `npx playwright install chromium`.
+
+## Contenido
+
+- Los proyectos, puestos, estudios y tecnologías se mantienen en `src/portfolioData.js`.
+- El CV que descarga la web se genera con `scripts/build_cv.py`, usando el Python del entorno con ReportLab.
+- La versión anterior del portfolio se conserva en la rama `main-old`.
+
+## Dirección visual
+
+La paleta combina un fondo granate casi negro (`#171313`), texto marfil (`#f0e9de`) y acentos cobre (`#d99578`). El fondo oscuro da presencia a las capturas y al retrato, mientras que la tipografía de gran tamaño concentra la atención en el nombre y los proyectos. La fotografía se adaptó cromáticamente sin cambiar la identidad del retratado.
+
+Se estudiaron portfolios profesionales actuales como [Pablo Míguez](https://www.pablomiguez.dev/projects/portfolio), [Antoine Sillard](https://www.a-nerow.fr/en/projects/portfolio-personnel) y [Jeremy Antoni](https://www.jeremyantoni.com/projects/portfolio). Para los estados hover se revisó [InfoLaVelada](https://www.infolavelada.com/) y se adaptó su combinación de movimiento, borde iluminado y respuesta de imagen y flecha a la paleta de esta web. La composición y paleta son propias.
+
+Para el proceso se instalaron y usaron las skills `find-skills`, `frontend-design`, `gsap-react`, `gsap-scrolltrigger`, `react-best-practices` y `redesign-skill`.
